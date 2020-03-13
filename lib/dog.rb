@@ -8,4 +8,12 @@ class Dog
     puts @name
   end
 
+def breed=(breedinput)
+    @breed = breedinput
+  end
+  
+  def breed
+    puts @breed
+  end
+
 end
