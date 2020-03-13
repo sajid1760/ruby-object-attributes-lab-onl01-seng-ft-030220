@@ -5,7 +5,7 @@ class Person
   end
   
   def name
-    puts @name
+    @name
   end
 
 def job=(jobinput)
@@ -13,7 +13,7 @@ def job=(jobinput)
   end
   
   def job
-    puts @job
+    @job
   end
 
 
